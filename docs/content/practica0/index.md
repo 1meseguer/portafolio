@@ -69,3 +69,35 @@ Github es una plataforma que aloja proyectos de Git. Puedes crear, subir y clona
 |`git status`|Muestra los arhivos modificados en el directorio acual|
 |`git commit -m "[descripcion]"`|Confirma los cambios realizados. Introduce la descripción del cambio.|
 |`git push [alias] [branch]`|Envia los cambios del repositorio local al repositorio remoto.|
+
+---
+
+### ¿Qué es Hugo?
+
+Es un framework que genera sitios web estaticos utilizando archivos Markdown.
+
+### ¿Qué es GitHub Actions?
+
+Es una plataforma de automatizacion de flujos de trabajos. Compila código automaticamente desde un push o pull y lo publica en _GitHub Pages_.
+
+### ¿Cómo crear un sitio estático con Hugo?
+
+1. Verificar Hugo está instalado. `hugo version`
+
+2. Crear el sitio. `hugo new site nombre`, `cd nombre`
+
+3. Inicializar git. `git init`
+
+4. Agregar un tema y configurar el sitio. `echo "theme = 'ananke'" >> hugo.toml`
+
+5. Agregar a GitHub Actions. `mkdir .github/workflows`, `touch hugo.yaml`
+
+6. Configurar GitHub Pages desde la configuracion del repositorio.
+
+---
+
+### Enlaces
+
+__Portafolio__ https://github.com/1meseguer/portafolio
+
+__GitHub Pages__ https://1meseguer.github.io/portafolio/
