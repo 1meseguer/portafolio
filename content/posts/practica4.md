@@ -1,6 +1,6 @@
 ---
 date: '2026-05-27T17:41:43-07:00'
-draft: true
+draft: false
 title: 'Practica4'
 ---
 
